@@ -6,6 +6,6 @@ export default defineVitestConfig({
   test: {
     globals: true,
     environment: 'nuxt',
-    exclude: [...configDefaults.exclude, './src/tests/e2e/*'],
+    exclude: [...configDefaults.exclude, './tests/e2e/*'],
   },
 });
